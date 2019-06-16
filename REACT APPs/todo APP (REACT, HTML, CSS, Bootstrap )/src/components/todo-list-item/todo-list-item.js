@@ -30,7 +30,7 @@ export default class ToDoListItem extends React.Component {
   };
 
   render() {
-    const { label, onDeleted } = this.props;
+    const { label } = this.props;
     const { done, important } = this.state;
 
     let classNames = 'todo-list-item';
