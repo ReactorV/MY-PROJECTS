@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Какой формат данных обычно используют в AJAX запросе?",
+    "choice1": "XML",
+    "choice2": "HTML",
+    "choice3": "JSON",
+    "choice4": "Бинарные данные",
+    "answer": 3
+  },
+  {
+    "question": "Какой оператор используют для определения типа данных?",
+    "choice1": "instanceof()",
+    "choice2": "typeof",
+    "choice3": "hasOwnProperty()",
+    "choice4": "typesof()",
+    "answer": 2
+  },
+  {
+    "question": "Вызов функцией самой себя, как правило, с другими аргументами - это?",
+    "choice1": "Самовызывающаяся функция",
+    "choice2": "Каррирование",
+    "choice3": "Чистая функция",
+    "choice4": "Рекурсия",
+    "answer": 4
+  },
+  {
+    "question": "Как можно отменить таймер setTimeout()?",
+    "choice1": "clearInterval()",
+    "choice2": "clearTimer()",
+    "choice3": "clearTimeout()",
+    "choice4": "clearSetTimeout()",
+    "answer": 3
+  },
+  {
+    "question": "Какой способ создания функции правильный?",
+    "choice1": "createFunction(params, code)",
+    "choice2": "new FunctionScope(par, code)",
+    "choice3": "create Function(params, code)",
+    "choice4": "new Function(params, code)",
+    "answer": 4
+  }
+]

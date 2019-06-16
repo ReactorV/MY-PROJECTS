@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test - play</title>
+  <link rel="stylesheet/less" type="text/css" href="/frontend/styles/main.less" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="loader"></div>
+    <div id="game" class="justify-center flex-column hidden">
+      <div id="top">
+        <div id="top-item">
+          <p class="top-prefix" id="progressText">
+            Вопрос
+          </p>
+          <div id="progressBar">
+            <div id="progressBarFull"></div>
+          </div>
+        </div>
+        <div id="top-item">
+            <p class="top-prefix">
+              Счет
+            </p>
+            <h1 class="top-main-text" id="score">
+              0
+            </h1>
+          </div>
+      </div>
+      <h2 id="question">Какой ответ на этот вопрос?</h2>
+      <div class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text" data-number="1">Choice 1</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text" data-number="2">Choice 2</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text" data-number="3">Choice 3</p>
+      </div>
+        <div class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text" data-number="4">Choice 4</p>
+      </div>
+    </div>
+  </div>
+  <script src="/frontend/js/game.js"></script>
+</body>
+</html>
