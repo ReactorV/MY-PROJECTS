@@ -41,3 +41,7 @@ saveScore = e => {
   window.location.assign('/frontend/Index.html');
 };
 
+
+function num(numbers) {
+  console.log(numbers);
+}
